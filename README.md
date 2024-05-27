@@ -1,26 +1,73 @@
-# Book Store MERN stack project
+### Book Store MERN Project
 
-## Lessons
+#### Overview
+This project is a comprehensive book store application built using the MERN stack, which consists of:
+- **MongoDB**: For the database
+- **Express.js**: For the server-side framework
+- **React.js**: For the front-end framework
+- **Node.js**: For the runtime environment
 
-- [x] Lesson 01: Create Node.js project from scratch
-- [x] Lesson 02: Create our first Http Route
-- [x] Lesson 03: Add MongoDB and mongoose to node js
-- [x] Lesson 04: Create Book model with mongoose
-- [x] Lesson 05: Save a new Book with mongoose
-- [x] Lesson 06: Get All Books with mongoose
-- [x] Lesson 07: Get One Book by id with mongoose
-- [x] Lesson 08: Update a Book with mongoose
-- [x] Lesson 09: Delete a book with mongoose
-- [x] Lesson 10: Refactor Node js with express router
-- [x] Lesson 11: CORS policy in Node js and Express js
-- [x] Lesson 12: Create React project, Vite, Tailwind CSS
-- [x] Lesson 13: SPA and Add react router dom
-- [x] Lesson 14: Show Books List in React
-- [x] Lesson 15: Show Book Details in React
-- [x] Lesson 16: Create Book in React
-- [x] Lesson 17: Edit Book in React
-- [x] Lesson 18: Delete Book in React
-- [x] Lesson 19: Show Books List as Card
-- [x] Lesson 20: Make Book Card a single component
-- [x] Lesson 21: Add Book Modal
-- [x] Lesson 22: Improve User Experience (UX) with beautiful alert
+#### Technologies Used
+- **Frontend**: 
+  - React.js
+  - Vite
+  - Tailwind CSS
+  - React Router DOM
+- **Backend**:
+  - Node.js
+  - Express.js
+  - Mongoose (for MongoDB interactions)
+
+#### Project Features
+- **CRUD Operations**: Create, Read, Update, and Delete books.
+- **Book Models**: Define and manage book data with Mongoose.
+- **Routing**: Efficient client-side and server-side routing.
+- **State Management**: Manage application state effectively in React.
+- **UI/UX Enhancements**: User-friendly interfaces and modals for better user experience.
+
+#### Getting Started
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/RajaPiyush/Book-Store-Project.git
+   ```
+2. **Install dependencies**:
+   ```sh
+   cd backend
+   npm install
+   cd ../frontend
+   npm install
+   ```
+3. **Run the application**:
+   - Backend: 
+     ```sh
+     cd backend
+     npm start
+     ```
+   - Frontend:
+     ```sh
+     cd frontend
+     npm start
+     ```
+
+#### Lessons and Features Breakdown
+- **Backend Development**:
+  - Setup Node.js and Express.js server.
+  - Create and connect MongoDB database using Mongoose.
+  - Implement RESTful API endpoints.
+- **Frontend Development**:
+  - Setup React project with Vite and Tailwind CSS.
+  - Implement routing and navigation with React Router.
+  - Create responsive UI components and forms.
+  - Enhance UX with modals and alerts.
+
+#### Future Enhancements
+- Authentication and Authorization
+- Advanced search and filtering options
+- Integration with external book APIs
+
+#### Contribution
+Feel free to contribute by submitting pull requests or opening issues for any bugs or feature requests.
+
+---
+
+For more detailed instructions and lessons, visit the [repository](https://github.com/RajaPiyush/Book-Store-Project).
